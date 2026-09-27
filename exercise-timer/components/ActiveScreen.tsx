@@ -54,7 +54,7 @@ export default function ActiveScreen({
       <div className="flex-1 flex flex-col items-center justify-center">
         <div
           className={`font-display font-bold tabular-nums leading-none ${accent} ${
-            showCountdown ? "text-[9rem]" : "text-[7rem]"
+            showCountdown ? "text-[8rem]" : "text-[8rem]"
           } transition-all`}
         >
           {showCountdown ? remaining : formatMMSS(remaining)}
